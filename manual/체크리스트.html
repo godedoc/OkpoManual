@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>checkList</title>
+    <script src="java.js"></script>
+  </head>
+  <body>
+    <div id="goBack">
+      <p>
+        <a href="index.html">목록으로 돌아가기</a>
+      </p>
+    </div>
+    <!-- 야간 근무자용 체크리스트 따로 -->
+    <div class="cleaning">
+      <h3>청소</h3>
+      <input type="checkbox" class="cleanBox" /> 창문 열기
+      <br />
+      <input type="checkbox" class="cleanBox" /> 청소기
+      <br />
+      <input type="checkbox" class="cleanBox" /> 탁구대 닦기 + 점수판 초기화
+      <br />
+      <input type="checkbox" class="cleanBox" /> 조명 끄기
+      <br />
+      <input type="checkbox" class="cleanBox" /> 휴게실 정리(탁자 닦기, 의자
+      정리)
+      <br />
+      <input type="checkbox" class="cleanBox" /> 비 올 때 걸레 놓기/교체
+      <br />
+      <input type="checkbox" class="cleanBox" /> 쓰레기통, 물통 확인(찼으면
+      챙겨서 싱크대로)
+      <br />
+      <input type="checkbox" class="cleanBox" /> 새 비닐, 물통 휴게실로
+      <br />
+      <input type="checkbox" class="cleanBox" /> 탈의실 환기/절전
+      <br />
+      <input type="checkbox" class="cleanBox" /> 분무 방역
+      <br />
+      <input type="checkbox" class="cleanBox" /> 창문 닫기 + 쓰레기,분실물 줍기
+      <br />
+      <input type="checkbox" class="cleanBox" /> 화장실 세면대 물기 닦기
+      <br />
+      <input type="checkbox" class="cleanBox" /> 종량제 봉투 확인하고
+      교체(싱크대 위 서랍)
+      <br />
+      <button onclick="resetClean()">전체 체크 해제</button>
+    </div>
+    <div class="goHome">
+      <h3>퇴근</h3>
+      <input type="checkbox" class="goBox" /> 포스기 마감, 시재점검, 정산,
+      컴퓨터 끄기
+      <br />
+      <input type="checkbox" class="goBox" /> 현금함 잠그기
+      <br />
+      <input type="checkbox" class="goBox" /> 온도계 끄고 충전
+      <br />
+      <input type="checkbox" class="goBox" /> 청소 체크리스트 확인
+      <br />
+      <input type="checkbox" class="goBox" /> 파란 걸레 빨기
+      <br />
+      <input type="checkbox" class="goBox" /> 에어컨 끄기(3개)
+      <br />
+      <input type="checkbox" class="goBox" /> 창문 닫기(휴게실 포함)
+      <br />
+      <input type="checkbox" class="goBox" /> 화장실 창문, 문 개방
+      <br />
+      <input type="checkbox" class="goBox" /> 레슨장 그물 넣기 & 판 치우기
+      <br />
+      <input type="checkbox" class="goBox" /> 서랍에 열쇠 두개 확인
+      <br />
+      <input type="checkbox" class="goBox" /> 소등(화장실, 휴게실, 사무실,
+      연습장)
+      <br />
+      <input type="checkbox" class="goBox" /> 세콤 보안 세트(평일 마감만)
+      <br />
+      <input type="checkbox" class="goBox" /> 현관 잠금(마지막 시간만 )
+      <br />
+      <button onclick="resetHome()">전체 체크 해제</button>
+      <br />
+      키패드 8130
+      <br />
+    </div>
+  </body>
+</html>
